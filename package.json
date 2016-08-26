@@ -1,0 +1,16 @@
+{
+  "name": "dnd",
+  "version": "0.1.0",
+  "author": "Samuel Davis <samueljakdavis@gmail.com>",
+  "scripts": {
+    "watch": "node_modules/.bin/watchify src/main.js -vt [ babelify --presets [ es2015 ] ] -o build/main.js --debug"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "babelify": "*",
+    "browserify": "*",
+    "watchify": "*"
+  },
+  "preferGlobal": false,
+  "private": true
+}
